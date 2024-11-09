@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f2f2f2"
+    tools:context=".Tela2"
+    >
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutoriais de Primeiros Socorros"
+        android:textSize="24sp"
+        android:textColor="#E60000"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Link para tutorial de RCP -->
+    <TextView
+        android:id="@+id/tvTutorialRCP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Como fazer RCP (Ressuscitação Cardio Pulmonar)"
+        android:textSize="18sp"
+        android:textColor="#0000FF"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="abrirTutorialRCP" />
+
+    <!-- Link para tutorial de Hemorragias -->
+    <TextView
+        android:id="@+id/tvTutorialHemorragia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Como estancar hemorragias"
+        android:textSize="18sp"
+        android:textColor="#0000FF"
+        android:layout_marginBottom="18dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="abrirTutorialHemorragia" />
+
+    <!-- Link para tutorial de Engasgo -->
+    <TextView
+        android:id="@+id/tvTutorialEngasgo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Como ajudar em caso de engasgo"
+        android:textSize="18sp"
+        android:textColor="#0000FF"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="abrirTutorialEngasgo" />
+
+</LinearLayout>
